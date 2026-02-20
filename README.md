@@ -8,7 +8,9 @@
 ![Network](https://img.shields.io/badge/Network-TOR%20Onion%20Services-purple?style=for-the-badge)
 
 ------------------------------------------------------------------------
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BitmasterXor/Delphi_TOR_SOCKETS/main/TORComponents.png" alt="TOR Components">
+</p>
 # 🚀 Overview
 
 TOR Socket Components for Delphi is a fully native, zero‑dependency TOR
