@@ -154,8 +154,8 @@ Your real IP address is never exposed.
 
 BitmasterXor
 
-Security Researcher\
-Delphi Systems Developer
+Malware Researcher\
+Delphi Developer
 
 GitHub\
 https://github.com/BitmasterXor
