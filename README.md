@@ -1,6 +1,6 @@
 # 🧅 TOR Socket Components for Delphi
 
-### Professional Native TOR Client & Server Components (Zero Dependencies)
+### Professional Native TOR Client & Server Components
 
 ![Delphi](https://img.shields.io/badge/Delphi-12.2+-red?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20Win32%20%7C%20Win64-blue?style=for-the-badge)
