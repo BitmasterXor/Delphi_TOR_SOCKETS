@@ -13,7 +13,7 @@
 </p>
 # 🚀 Overview
 
-TOR Socket Components for Delphi is a fully native, zero‑dependency TOR
+TOR Socket Components for Delphi is a fully native TOR
 networking component suite written entirely in Delphi.
 
 It allows your applications to:
