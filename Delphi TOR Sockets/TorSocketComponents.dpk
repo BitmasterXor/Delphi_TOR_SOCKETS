@@ -1,0 +1,41 @@
+package TorSocketComponents;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This SHOULD NOT BE MODIFIED}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE RELEASE}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'TOR Socket Components - Client and Server for TOR Hidden Services'}
+{$DESIGNONLY}
+
+requires
+  rtl,
+  vcl;
+
+contains
+  TorEngine in 'TorEngine.pas',
+  TorClientSocket in 'TorClientSocket.pas',
+  TorServerSocket in 'TorServerSocket.pas',
+  TorSocketReg in 'TorSocketReg.pas';
+
+end.
