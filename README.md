@@ -19,7 +19,7 @@ It allows your applications to:
 • Connect to TOR hidden services (.onion)\
 • Host TOR hidden services\
 • Build anonymous servers and clients\
-• Run TOR networking without external libraries
+• Run TOR networking without external libraries (NOTE: TOR.exe binary is required)
 
 No OpenSSL.\
 No external DLL dependencies.
