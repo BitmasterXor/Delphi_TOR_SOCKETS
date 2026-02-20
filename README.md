@@ -4,7 +4,7 @@
 
 ![Delphi](https://img.shields.io/badge/Delphi-12.2+-red?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20Win32%20%7C%20Win64-blue?style=for-the-badge)
-![Dependencies](https://img.shields.io/badge/Dependencies-NONE-success?style=for-the-badge)
+![Dependencies](https://img.shields.io/badge/Dependency-TOR.exe-success?style=for-the-badge)
 ![Network](https://img.shields.io/badge/Network-TOR%20Onion%20Services-purple?style=for-the-badge)
 
 ------------------------------------------------------------------------
@@ -22,8 +22,6 @@ It allows your applications to:
 • Run TOR networking without external libraries
 
 No OpenSSL.\
-No libevent.\
-No Indy.\
 No external DLL dependencies.
 
 Only tor.exe is required.
@@ -39,7 +37,7 @@ Only tor.exe is required.
 • SOCKS5 protocol implementation\
 • TOR Control Protocol support\
 • Bootstrap monitoring\
-• Hidden service creation
+• Hidden service creation (for the TOR.exe Binary)
 
 ------------------------------------------------------------------------
 
@@ -96,7 +94,7 @@ Open in Delphi:
 
 TorSocketComponents.dpk
 
-Click Install
+Build & Install
 
 Components appear in Component Palette → TOR Sockets
 
@@ -108,7 +106,7 @@ Download TOR Expert Bundle:
 
 https://www.torproject.org/download/tor/
 
-Place tor.exe in your application folder.
+Place tor.exe in your application folder. (or use whatever method you wish Ex: Exe resources ect... ect...)
 
 ------------------------------------------------------------------------
 
